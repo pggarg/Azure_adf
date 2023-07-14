@@ -1,0 +1,17 @@
+{
+	"name": "Data_flow_1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSQLDatabaseCoursera",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "Sales",
+			"table": "Address_Pipeline1"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

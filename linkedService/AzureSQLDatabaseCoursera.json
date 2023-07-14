@@ -1,0 +1,18 @@
+{
+	"name": "AzureSQLDatabaseCoursera",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"parameters": {
+			"Global_Database": {
+				"type": "string",
+				"defaultValue": "coursera.database.windows.net"
+			}
+		},
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=@{linkedService().Global_Database};initial catalog=Coursera_database;user id=pranav",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDY2QjNENTRGLTlBMjgtNEQ1NS05QTRELUQ0Q0VBMDQ4MTUzRV8xMGU1Zjc5OS00MWU0LTQwMTAtOGIyZC1mM2Q1ZTU5ZjU4NTUiDQp9"
+		}
+	}
+}

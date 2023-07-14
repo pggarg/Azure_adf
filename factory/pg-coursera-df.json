@@ -1,0 +1,17 @@
+{
+	"name": "pg-coursera-df",
+	"properties": {
+		"globalParameters": {
+			"Global_Database": {
+				"type": "string",
+				"value": "SQL"
+			}
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4c1d2e40-a0e3-4ed1-a2da-f1fab69ddd9d",
+		"tenantId": "2c5bdaf4-8ff2-4bd9-bd54-7c50ab219590"
+	}
+}
